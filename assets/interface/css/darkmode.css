@@ -1,0 +1,45 @@
+:root {
+    --front-hue: #3C4042;
+    --darkmode-hue: #202124;
+    --darkmode-text: #e9e9e8;
+    --darkmode-border: grey;
+    --label-text: rgb(192, 189, 189);
+}
+
+.darkmode {
+    .main {
+        background-color: var(--darkmode-hue);
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--darkmode-text);
+    }
+    label {
+        color: var(--darkmode-text);
+        font-weight: 400;
+    }
+    p {
+        color: var(--label-text);
+    }
+    i {
+        color: var(--darkmode-text);
+    }
+    .flex-bar i {
+        color: var(--darkmode-text);
+    }
+    .flex-bar i:hover {
+        color: var(--darkmode-hue);
+    }
+    #sidebar {
+        background-color: var(--front-hue);
+    }
+    .sidebar-link i {
+        background-color: var(--front-hue);
+    }
+    input[type=submit] {
+        background-color: var(--front-hue);
+        border: solid thin rgb(73, 73, 73);
+    }
+    .not-resp  {
+        background-color: var(--darkmode-hue);
+    }
+}

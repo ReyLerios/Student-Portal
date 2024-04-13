@@ -1,0 +1,79 @@
+@media only screen and (max-width: 421px) {
+    .header {
+        margin: 1em 0;
+    }
+    .header h1 {
+        font-size: 18px;
+        margin: 1rem 0;
+    }
+    .header p {
+        font-size: 10px;
+    }
+    .header img {
+        width: 100px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+    .index {
+        margin: 1rem 0;
+    }
+    .asterisk {
+        font-size: 8px;
+    }
+    em {
+        font-size: 10px;
+    }
+    .resp label {
+        font-size: 13px;
+    }
+    .resp p {
+        font-size: 14px;
+    }
+    .flex-bar i {
+        font-size: 16px;
+    }
+    .mood {
+        position: fixed;
+        bottom: 1%;
+    }
+    .mood i {
+        font-size: 14px;
+        margin: .1rem 0;
+    }
+    .logo img {
+        width: 100px;
+    }
+    .contact-form {
+        margin: 1rem 0;
+        h1 {
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+    .support-field .form-label {
+        font-size: 13px;
+    }
+    .resp-fld {
+        margin: 2rem 0;
+    }
+    input[type=text], input[type=email] {
+        font-size: 12px;
+    }
+    input[type=submit] {
+        padding: 8px;
+        padding-left: 22px;
+        padding-right: 22px;
+        font-size: 12px;
+    }
+    .not-label h5 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .pmt {
+        font-size: 13px;
+    }
+    .mod label, .mod p {
+        font-size: 13px;
+    }
+}
